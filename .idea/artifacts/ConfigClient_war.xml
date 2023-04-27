@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ConfigClient:war">
+    <output-path>$PROJECT_DIR$/ConfigClient/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>ConfigClient</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="ConfigClient-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="ConfigClient:war exploded" />
+    </root>
+  </artifact>
+</component>
