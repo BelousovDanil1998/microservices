@@ -1,0 +1,17 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: ${EUREKA_URI:http://localhost:8761/eureka}
+  instance:
+    prefer-ip-address: true
+server:
+  port: 8816
+spring:
+  application:
+    name: feign-client
+  cloud:
+    config:
+      discovery:
+        enabled: true
+
+
