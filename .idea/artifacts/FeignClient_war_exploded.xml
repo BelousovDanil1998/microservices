@@ -1,22 +1,23 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="ConfigClient:war exploded">
-    <output-path>$PROJECT_DIR$/ConfigClient/target/ConfigClient-0.0.1-SNAPSHOT</output-path>
+  <artifact type="exploded-war" name="FeignClient:war exploded">
+    <output-path>$PROJECT_DIR$/FeignClient/target/FeignClient-0.0.1-SNAPSHOT</output-path>
     <properties id="maven-jee-properties">
       <options>
         <exploded>true</exploded>
-        <module>ConfigClient</module>
+        <module>FeignClient</module>
         <packaging>war</packaging>
       </options>
     </properties>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="ConfigClient" />
+          <element id="module-output" name="FeignClient" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-web:3.0.6" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter:3.0.6" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot:3.0.6" />
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-autoconfigure:3.0.6" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-logging:3.0.6" />
           <element id="library" level="project" name="Maven: ch.qos.logback:logback-classic:1.4.7" />
           <element id="library" level="project" name="Maven: ch.qos.logback:logback-core:1.4.7" />
@@ -25,6 +26,7 @@
           <element id="library" level="project" name="Maven: org.slf4j:jul-to-slf4j:2.0.7" />
           <element id="library" level="project" name="Maven: org.yaml:snakeyaml:1.33" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-json:3.0.6" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.14.2" />
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.14.2" />
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.14.2" />
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.module:jackson-module-parameter-names:2.14.2" />
@@ -36,25 +38,18 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-aop:6.0.8" />
           <element id="library" level="project" name="Maven: org.springframework:spring-context:6.0.8" />
           <element id="library" level="project" name="Maven: org.springframework:spring-expression:6.0.8" />
-          <element id="library" level="project" name="Maven: org.springframework.cloud:spring-cloud-starter-config:4.0.2" />
+          <element id="library" level="project" name="Maven: org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:4.0.1" />
           <element id="library" level="project" name="Maven: org.springframework.cloud:spring-cloud-starter:4.0.2" />
           <element id="library" level="project" name="Maven: org.springframework.cloud:spring-cloud-context:4.0.2" />
-          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-crypto:6.0.3" />
-          <element id="library" level="project" name="Maven: org.springframework.cloud:spring-cloud-commons:4.0.2" />
           <element id="library" level="project" name="Maven: org.springframework.security:spring-security-rsa:1.0.11.RELEASE" />
           <element id="library" level="project" name="Maven: org.bouncycastle:bcpkix-jdk15on:1.69" />
           <element id="library" level="project" name="Maven: org.bouncycastle:bcprov-jdk15on:1.69" />
           <element id="library" level="project" name="Maven: org.bouncycastle:bcutil-jdk15on:1.69" />
-          <element id="library" level="project" name="Maven: org.springframework.cloud:spring-cloud-config-client:4.0.2" />
-          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.14.2" />
+          <element id="library" level="project" name="Maven: org.springframework.cloud:spring-cloud-netflix-eureka-client:4.0.1" />
           <element id="library" level="project" name="Maven: org.apache.httpcomponents.client5:httpclient5:5.1.4" />
           <element id="library" level="project" name="Maven: org.apache.httpcomponents.core5:httpcore5:5.1.5" />
           <element id="library" level="project" name="Maven: org.apache.httpcomponents.core5:httpcore5-h2:5.1.5" />
           <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.15" />
-          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.14.2" />
-          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.14.2" />
-          <element id="library" level="project" name="Maven: org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:4.0.1" />
-          <element id="library" level="project" name="Maven: org.springframework.cloud:spring-cloud-netflix-eureka-client:4.0.1" />
           <element id="library" level="project" name="Maven: com.netflix.eureka:eureka-client:2.0.0" />
           <element id="library" level="project" name="Maven: com.netflix.netflix-commons:netflix-eventbus:0.3.0" />
           <element id="library" level="project" name="Maven: com.netflix.netflix-commons:netflix-infix:0.3.0" />
@@ -76,6 +71,8 @@
           <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore:4.4.16" />
           <element id="library" level="project" name="Maven: commons-configuration:commons-configuration:1.10" />
           <element id="library" level="project" name="Maven: commons-lang:commons-lang:2.6" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.14.2" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.14.2" />
           <element id="library" level="project" name="Maven: org.codehaus.jettison:jettison:1.4.0" />
           <element id="library" level="project" name="Maven: com.netflix.eureka:eureka-core:2.0.0" />
           <element id="library" level="project" name="Maven: jakarta.servlet:jakarta.servlet-api:6.0.0" />
@@ -89,23 +86,27 @@
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-cache:3.0.6" />
           <element id="library" level="project" name="Maven: org.springframework:spring-context-support:6.0.8" />
           <element id="library" level="project" name="Maven: com.stoyanr:evictor:1.0.0" />
-          <element id="library" level="project" name="Maven: jakarta.annotation:jakarta.annotation-api:2.1.1" />
-          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:2.0.7" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-core:6.0.8" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-jcl:6.0.8" />
+          <element id="library" level="project" name="Maven: org.springframework.cloud:spring-cloud-starter-openfeign:4.0.2" />
           <element id="library" level="project" name="Maven: org.springframework.cloud:spring-cloud-openfeign-core:4.0.2" />
-          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-autoconfigure:3.0.6" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-aop:3.0.6" />
           <element id="library" level="project" name="Maven: org.aspectj:aspectjweaver:1.9.19" />
           <element id="library" level="project" name="Maven: io.github.openfeign.form:feign-form-spring:3.8.0" />
           <element id="library" level="project" name="Maven: io.github.openfeign.form:feign-form:3.8.0" />
           <element id="library" level="project" name="Maven: commons-fileupload:commons-fileupload:1.4" />
+          <element id="library" level="project" name="Maven: org.springframework.cloud:spring-cloud-commons:4.0.2" />
+          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-crypto:6.0.3" />
+          <element id="library" level="project" name="Maven: io.github.openfeign:feign-core:12.1" />
+          <element id="library" level="project" name="Maven: io.github.openfeign:feign-slf4j:12.1" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:2.0.7" />
+          <element id="library" level="project" name="Maven: jakarta.annotation:jakarta.annotation-api:2.1.1" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:6.0.8" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jcl:6.0.8" />
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/ConfigClient/target/ConfigClient-0.0.1-SNAPSHOT/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/FeignClient/target/FeignClient-0.0.1-SNAPSHOT/META-INF/MANIFEST.MF" />
       </element>
-      <element id="javaee-facet-resources" facet="ConfigClient/web/Web" />
+      <element id="javaee-facet-resources" facet="FeignClient/web/Web" />
     </root>
   </artifact>
 </component>
