@@ -7,12 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="EurekaServer" />
+        <module name="BookService" />
         <module name="ConfigClient" />
         <module name="ConfigServer" />
         <module name="FeignClient" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="BookService" target="17" />
       <module name="ConfigClient" target="17" />
       <module name="ConfigServer" target="17" />
       <module name="EurekaServer" target="17" />
@@ -21,6 +23,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="BookService" options="-parameters" />
       <module name="ConfigClient" options="-parameters" />
       <module name="ConfigServer" options="-parameters" />
       <module name="EurekaServer" options="-parameters" />
