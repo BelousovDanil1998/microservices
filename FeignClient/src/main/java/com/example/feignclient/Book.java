@@ -1,4 +1,4 @@
-package model;
+package com.example.feignclient;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

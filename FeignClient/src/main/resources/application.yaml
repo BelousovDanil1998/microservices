@@ -13,5 +13,7 @@ spring:
     config:
       discovery:
         enabled: true
-
+  data:
+    mongodb:
+      uri: mongodb://localhost:27018/users
 
