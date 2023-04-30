@@ -14,4 +14,6 @@ spring:
       discovery:
         enabled: true
         service-id: config-server
-
+  data:
+    mongodb:
+      uri: mongodb://localhost:27018/users
