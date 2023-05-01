@@ -2,6 +2,7 @@
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/BookService" />
+    <file type="web" url="file://$PROJECT_DIR$/BookService2" />
     <file type="web" url="file://$PROJECT_DIR$/ConfigClient" />
     <file type="web" url="file://$PROJECT_DIR$/ConfigServer" />
     <file type="web" url="file://$PROJECT_DIR$/EurekaServer" />
@@ -16,6 +17,7 @@
         <option value="$PROJECT_DIR$/FeignClient/pom.xml" />
         <option value="$PROJECT_DIR$/BookService/pom.xml" />
         <option value="$PROJECT_DIR$/testClient/pom.xml" />
+        <option value="$PROJECT_DIR$/BookService2/pom.xml" />
       </list>
     </option>
   </component>

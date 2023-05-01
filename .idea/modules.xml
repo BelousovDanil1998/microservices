@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BookService/BookService.iml" filepath="$PROJECT_DIR$/BookService/BookService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BookService2/BookService2.iml" filepath="$PROJECT_DIR$/BookService2/BookService2.iml" />
       <module fileurl="file://$PROJECT_DIR$/ConfigServer/ConfigServer.iml" filepath="$PROJECT_DIR$/ConfigServer/ConfigServer.iml" />
       <module fileurl="file://$PROJECT_DIR$/EurekaServer/EurekaServer.iml" filepath="$PROJECT_DIR$/EurekaServer/EurekaServer.iml" />
       <module fileurl="file://$PROJECT_DIR$/FeignClient/FeignClient.iml" filepath="$PROJECT_DIR$/FeignClient/FeignClient.iml" />

@@ -12,7 +12,7 @@ public class RouterConfig {
         return builder.routes()
                 .route("book-service", r -> r.path("/info")
                         .filters(f -> f.filter(new CustomFilter()))
-                        .uri("http://localhost:8836"))
+                        .uri("lb://book-service"))
                 .build();
     }
 }
