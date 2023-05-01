@@ -10,6 +10,7 @@
         <module name="EurekaServer" />
         <module name="BookService" />
         <module name="ConfigServer" />
+        <module name="testClient" />
         <module name="FeignClient" />
       </profile>
     </annotationProcessing>
@@ -19,6 +20,7 @@
       <module name="ConfigServer" target="17" />
       <module name="EurekaServer" target="17" />
       <module name="FeignClient" target="17" />
+      <module name="testClient" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -28,6 +30,7 @@
       <module name="ConfigServer" options="-parameters" />
       <module name="EurekaServer" options="-parameters" />
       <module name="FeignClient" options="-parameters" />
+      <module name="testClient" options="-parameters" />
     </option>
   </component>
 </project>

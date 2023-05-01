@@ -7,6 +7,9 @@ eureka:
 server:
   port: 8816
 spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
   application:
     name: feign-client
   cloud:
@@ -15,5 +18,10 @@ spring:
         enabled: true
   data:
     mongodb:
-      uri: mongodb://localhost:27018/users
+      host: localhost
+      port: 27017
+      database: mydatabase
+  logging:
+    level:
+      org.springframework.data.mongodb.core.MongoTemplate: DEBUG
 

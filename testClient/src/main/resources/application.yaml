@@ -5,12 +5,10 @@ eureka:
   instance:
     prefer-ip-address: true
 server:
-  port: 8889
+  port: 8899
 spring:
   application:
-    name: config-client
-  config:
-    import: "optional:configserver:"
+    name: test-client
   cloud:
     config:
       discovery:

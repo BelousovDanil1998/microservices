@@ -16,4 +16,10 @@ spring:
         service-id: config-server
   data:
     mongodb:
-      uri: mongodb://localhost:27018/users
+      host: localhost
+      port: 27017
+      database: mydatabase
+
+logging:
+  level:
+    org.springframework.data.mongodb.core.MongoTemplate: DEBUG

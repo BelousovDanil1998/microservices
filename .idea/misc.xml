@@ -6,6 +6,7 @@
     <file type="web" url="file://$PROJECT_DIR$/ConfigServer" />
     <file type="web" url="file://$PROJECT_DIR$/EurekaServer" />
     <file type="web" url="file://$PROJECT_DIR$/FeignClient" />
+    <file type="web" url="file://$PROJECT_DIR$/testClient" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -14,6 +15,7 @@
         <option value="$PROJECT_DIR$/ConfigServer/pom.xml" />
         <option value="$PROJECT_DIR$/FeignClient/pom.xml" />
         <option value="$PROJECT_DIR$/BookService/pom.xml" />
+        <option value="$PROJECT_DIR$/testClient/pom.xml" />
       </list>
     </option>
   </component>

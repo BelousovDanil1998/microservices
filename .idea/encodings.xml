@@ -9,5 +9,6 @@
     <file url="file://$PROJECT_DIR$/ConfigServer/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/EurekaServer/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/FeignClient/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/testClient/src/main/java" charset="UTF-8" />
   </component>
 </project>
