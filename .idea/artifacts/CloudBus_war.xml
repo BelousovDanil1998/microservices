@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="CloudBus:war">
+    <output-path>$PROJECT_DIR$/CloudBus/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>CloudBus</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="CloudBus-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="CloudBus:war exploded" />
+    </root>
+  </artifact>
+</component>

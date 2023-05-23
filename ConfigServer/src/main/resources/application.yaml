@@ -2,22 +2,25 @@ server:
   port: 8888
 
 spring:
-  main:
-    web-application-type: reactive
   application:
     name: config-server
   profiles:
-    active: git
+    active: native
   cloud:
     config:
       server:
-        git:
-          uri: https://github.com/NikReDMooN/euruka-config
-          searchPaths: "ms-config-properties/{application}/{profile}"
-          clone-on-start: true
-          default-label: main
+        native:
+          searchLocations: file:///C:/
 
 eureka:
   client:
     serviceUrl:
       defaultZone: ${EUREKA_URI:http://localhost:8761/eureka/}
+
+management:
+  security:
+    enabled: false
+  endpoints:
+    web:
+      exposure:
+        include: '*'
